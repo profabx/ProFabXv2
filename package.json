@@ -1,0 +1,22 @@
+{
+  "name": "profabx-site",
+  "version": "1.0.0",
+  "description": "ProFabX - VitePress 多语言站点",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "docs:deploy": "vitepress build docs && gh-pages -d docs/.vitepress/dist"
+  },
+  "dependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

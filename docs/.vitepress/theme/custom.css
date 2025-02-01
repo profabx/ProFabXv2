@@ -1,0 +1,13 @@
+:root {
+    --vp-c-brand: rgb(0, 47, 247);
+    --vp-c-brand-light: rgb(80, 107, 247);
+    --vp-c-brand-dark: rgb(0, 30, 200);
+  }
+  .VPContent {
+    animation: fade-in 0.5s ease-in-out;
+  }
+  
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
